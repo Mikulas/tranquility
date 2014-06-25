@@ -1,0 +1,23 @@
+{
+	"name": "mikulas/tranquility",
+	"description": "PHP Code formatter",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Mikulas Dite",
+			"email": "mikulas@dite.pro"
+		}
+	],
+	"autoload": {
+		"psr-0": {
+			"Mikulas\\Tranquility\\": "src/"
+		}
+	},
+	"minimum-stability": "stable",
+	"require": {
+		"nikic/PHP-Parser": "~1.0.0-beta1"
+	},
+	"require-dev": {
+		"nette/tester": "~1.2.0"
+	}
+}
